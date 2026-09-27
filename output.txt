@@ -1,0 +1,31 @@
+Adjacency Matrix:
+
+  A B C D E F
+A 0 1 1 0 0 0
+B 1 0 0 1 1 0
+C 1 0 0 0 0 1
+D 0 1 0 0 0 0
+E 0 1 0 0 0 1
+F 0 0 1 0 1 0
+
+Adjacency List:
+
+A -> B C
+B -> A D E
+C -> A F
+D -> B
+E -> B F
+F -> C E
+
+BFS using Adjacency Matrix: A B C D E F
+
+DFS using Adjacency Matrix: A B D E F C
+
+BFS using Adjacency List: A B C D E F
+
+DFS using Adjacency List: A B D E F C
+
+Search for vertex F:
+
+Using Adjacency Matrix: Vertex F found.
+Using Adjacency List: Vertex F found.
