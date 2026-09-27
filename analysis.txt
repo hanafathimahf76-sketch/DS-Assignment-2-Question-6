@@ -1,0 +1,37 @@
+COMPLEXITY ANALYSIS
+
+Adjacency Matrix:
+Space Complexity: O(V²)
+BFS Time Complexity: O(V²)
+DFS Time Complexity: O(V²)
+Edge Checking: O(1)
+
+Adjacency List:
+Space Complexity: O(V + E)
+BFS Time Complexity: O(V + E)
+DFS Time Complexity: O(V + E)
+Edge Checking: O(degree of vertex)
+
+
+COMPARISON
+
+Feature              Adjacency Matrix       Adjacency List
+
+Space                O(V²)                 O(V + E)
+BFS                  O(V²)                 O(V + E)
+DFS                  O(V²)                 O(V + E)
+Edge checking        O(1)                  O(degree)
+
+
+FINAL CONCLUSION
+
+The given social network contains 6 vertices and 6 edges.
+Since the number of connections is relatively small compared
+with the maximum possible connections, the graph is sparse.
+
+The adjacency list is more suitable for this sparse social
+network because it stores only the existing connections and
+requires O(V + E) space.
+
+The adjacency matrix is useful when fast edge checking is
+required because an edge can be checked in O(1) time.
